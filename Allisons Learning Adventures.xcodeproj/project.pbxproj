@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9058DCE1AE495A900B5D03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9058DCD1AE495A900B5D03D /* AppDelegate.swift */; };
+		A9058DD01AE495A900B5D03D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9058DCF1AE495A900B5D03D /* FirstViewController.swift */; };
+		A9058DD21AE495A900B5D03D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9058DD11AE495A900B5D03D /* SecondViewController.swift */; };
+		A9058DD51AE495A900B5D03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9058DD31AE495A900B5D03D /* Main.storyboard */; };
+		A9058DD71AE495A900B5D03D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9058DD61AE495A900B5D03D /* Images.xcassets */; };
+		A9058DDA1AE495A900B5D03D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9058DD81AE495A900B5D03D /* LaunchScreen.xib */; };
+		A9058DE61AE495A900B5D03D /* Allisons_Learning_AdventuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9058DE51AE495A900B5D03D /* Allisons_Learning_AdventuresTests.swift */; };
+		A9D21F371B659D4100D7F33D /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D21F331B659D4100D7F33D /* cat.png */; };
+		A9D21F381B659D4100D7F33D /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D21F341B659D4100D7F33D /* monkey.png */; };
+		A9D21F391B659D4100D7F33D /* truck.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D21F351B659D4100D7F33D /* truck.png */; };
+		A9D21F3A1B659D4100D7F33D /* umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D21F361B659D4100D7F33D /* umbrella.png */; };
+		A9F2CB1A1B5A906300682FFD /* memoryBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F2CB191B5A906300682FFD /* memoryBackground.png */; };
+		A9F2CB1C1B5AE3F200682FFD /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F2CB1B1B5AE3F200682FFD /* sun.png */; };
+		A9F2CB1E1B5B14D500682FFD /* cardFace.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F2CB1D1B5B14D500682FFD /* cardFace.png */; };
+		A9F2CB201B5BEA0E00682FFD /* puppy.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F2CB1F1B5BEA0E00682FFD /* puppy.png */; };
+		A9F2CB221B5BEFAA00682FFD /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F2CB211B5BEFAA00682FFD /* ball.png */; };
+		A9F2CB241B5C4E1C00682FFD /* kidsCheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9F2CB231B5C4E1C00682FFD /* kidsCheer.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9058DE01AE495A900B5D03D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9058DC01AE495A800B5D03D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9058DC71AE495A900B5D03D;
+			remoteInfo = "Allisons Learning Adventures";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9058DC81AE495A900B5D03D /* Allisons Learning Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allisons Learning Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9058DCC1AE495A900B5D03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9058DCD1AE495A900B5D03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9058DCF1AE495A900B5D03D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A9058DD11AE495A900B5D03D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A9058DD41AE495A900B5D03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9058DD61AE495A900B5D03D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9058DD91AE495A900B5D03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9058DDF1AE495A900B5D03D /* Allisons Learning AdventuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Allisons Learning AdventuresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9058DE41AE495A900B5D03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9058DE51AE495A900B5D03D /* Allisons_Learning_AdventuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allisons_Learning_AdventuresTests.swift; sourceTree = "<group>"; };
+		A9D21F331B659D4100D7F33D /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		A9D21F341B659D4100D7F33D /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		A9D21F351B659D4100D7F33D /* truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truck.png; sourceTree = "<group>"; };
+		A9D21F361B659D4100D7F33D /* umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrella.png; sourceTree = "<group>"; };
+		A9F2CB191B5A906300682FFD /* memoryBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memoryBackground.png; sourceTree = "<group>"; };
+		A9F2CB1B1B5AE3F200682FFD /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		A9F2CB1D1B5B14D500682FFD /* cardFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardFace.png; sourceTree = "<group>"; };
+		A9F2CB1F1B5BEA0E00682FFD /* puppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppy.png; sourceTree = "<group>"; };
+		A9F2CB211B5BEFAA00682FFD /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		A9F2CB231B5C4E1C00682FFD /* kidsCheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kidsCheer.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9058DC51AE495A900B5D03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9058DDC1AE495A900B5D03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9058DBF1AE495A800B5D03D = {
+			isa = PBXGroup;
+			children = (
+				A9058DCA1AE495A900B5D03D /* Allisons Learning Adventures */,
+				A9058DE21AE495A900B5D03D /* Allisons Learning AdventuresTests */,
+				A9058DC91AE495A900B5D03D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9058DC91AE495A900B5D03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9058DC81AE495A900B5D03D /* Allisons Learning Adventures.app */,
+				A9058DDF1AE495A900B5D03D /* Allisons Learning AdventuresTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9058DCA1AE495A900B5D03D /* Allisons Learning Adventures */ = {
+			isa = PBXGroup;
+			children = (
+				A9058DCD1AE495A900B5D03D /* AppDelegate.swift */,
+				A9058DCF1AE495A900B5D03D /* FirstViewController.swift */,
+				A9058DD11AE495A900B5D03D /* SecondViewController.swift */,
+				A9058DD31AE495A900B5D03D /* Main.storyboard */,
+				A9F2CB181B5A8F1100682FFD /* Images */,
+				A9058DD61AE495A900B5D03D /* Images.xcassets */,
+				A9058DD81AE495A900B5D03D /* LaunchScreen.xib */,
+				A9058DCB1AE495A900B5D03D /* Supporting Files */,
+			);
+			path = "Allisons Learning Adventures";
+			sourceTree = "<group>";
+		};
+		A9058DCB1AE495A900B5D03D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9058DCC1AE495A900B5D03D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9058DE21AE495A900B5D03D /* Allisons Learning AdventuresTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9058DE51AE495A900B5D03D /* Allisons_Learning_AdventuresTests.swift */,
+				A9058DE31AE495A900B5D03D /* Supporting Files */,
+			);
+			path = "Allisons Learning AdventuresTests";
+			sourceTree = "<group>";
+		};
+		A9058DE31AE495A900B5D03D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9058DE41AE495A900B5D03D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F2CB181B5A8F1100682FFD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A9D21F331B659D4100D7F33D /* cat.png */,
+				A9D21F341B659D4100D7F33D /* monkey.png */,
+				A9D21F351B659D4100D7F33D /* truck.png */,
+				A9D21F361B659D4100D7F33D /* umbrella.png */,
+				A9F2CB231B5C4E1C00682FFD /* kidsCheer.mp3 */,
+				A9F2CB211B5BEFAA00682FFD /* ball.png */,
+				A9F2CB1F1B5BEA0E00682FFD /* puppy.png */,
+				A9F2CB1D1B5B14D500682FFD /* cardFace.png */,
+				A9F2CB1B1B5AE3F200682FFD /* sun.png */,
+				A9F2CB191B5A906300682FFD /* memoryBackground.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9058DC71AE495A900B5D03D /* Allisons Learning Adventures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9058DE91AE495A900B5D03D /* Build configuration list for PBXNativeTarget "Allisons Learning Adventures" */;
+			buildPhases = (
+				A9058DC41AE495A900B5D03D /* Sources */,
+				A9058DC51AE495A900B5D03D /* Frameworks */,
+				A9058DC61AE495A900B5D03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Allisons Learning Adventures";
+			productName = "Allisons Learning Adventures";
+			productReference = A9058DC81AE495A900B5D03D /* Allisons Learning Adventures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9058DDE1AE495A900B5D03D /* Allisons Learning AdventuresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9058DEC1AE495A900B5D03D /* Build configuration list for PBXNativeTarget "Allisons Learning AdventuresTests" */;
+			buildPhases = (
+				A9058DDB1AE495A900B5D03D /* Sources */,
+				A9058DDC1AE495A900B5D03D /* Frameworks */,
+				A9058DDD1AE495A900B5D03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9058DE11AE495A900B5D03D /* PBXTargetDependency */,
+			);
+			name = "Allisons Learning AdventuresTests";
+			productName = "Allisons Learning AdventuresTests";
+			productReference = A9058DDF1AE495A900B5D03D /* Allisons Learning AdventuresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9058DC01AE495A800B5D03D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AngryRhino;
+				TargetAttributes = {
+					A9058DC71AE495A900B5D03D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A9058DDE1AE495A900B5D03D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A9058DC71AE495A900B5D03D;
+					};
+				};
+			};
+			buildConfigurationList = A9058DC31AE495A800B5D03D /* Build configuration list for PBXProject "Allisons Learning Adventures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9058DBF1AE495A800B5D03D;
+			productRefGroup = A9058DC91AE495A900B5D03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9058DC71AE495A900B5D03D /* Allisons Learning Adventures */,
+				A9058DDE1AE495A900B5D03D /* Allisons Learning AdventuresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9058DC61AE495A900B5D03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D21F371B659D4100D7F33D /* cat.png in Resources */,
+				A9D21F381B659D4100D7F33D /* monkey.png in Resources */,
+				A9D21F3A1B659D4100D7F33D /* umbrella.png in Resources */,
+				A9F2CB201B5BEA0E00682FFD /* puppy.png in Resources */,
+				A9F2CB1E1B5B14D500682FFD /* cardFace.png in Resources */,
+				A9F2CB1A1B5A906300682FFD /* memoryBackground.png in Resources */,
+				A9D21F391B659D4100D7F33D /* truck.png in Resources */,
+				A9058DD51AE495A900B5D03D /* Main.storyboard in Resources */,
+				A9F2CB1C1B5AE3F200682FFD /* sun.png in Resources */,
+				A9058DDA1AE495A900B5D03D /* LaunchScreen.xib in Resources */,
+				A9F2CB221B5BEFAA00682FFD /* ball.png in Resources */,
+				A9F2CB241B5C4E1C00682FFD /* kidsCheer.mp3 in Resources */,
+				A9058DD71AE495A900B5D03D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9058DDD1AE495A900B5D03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9058DC41AE495A900B5D03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9058DD21AE495A900B5D03D /* SecondViewController.swift in Sources */,
+				A9058DCE1AE495A900B5D03D /* AppDelegate.swift in Sources */,
+				A9058DD01AE495A900B5D03D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9058DDB1AE495A900B5D03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9058DE61AE495A900B5D03D /* Allisons_Learning_AdventuresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9058DE11AE495A900B5D03D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9058DC71AE495A900B5D03D /* Allisons Learning Adventures */;
+			targetProxy = A9058DE01AE495A900B5D03D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9058DD31AE495A900B5D03D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9058DD41AE495A900B5D03D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9058DD81AE495A900B5D03D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9058DD91AE495A900B5D03D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9058DE71AE495A900B5D03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9058DE81AE495A900B5D03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9058DEA1AE495A900B5D03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Allisons Learning Adventures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9058DEB1AE495A900B5D03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Allisons Learning Adventures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9058DED1AE495A900B5D03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Allisons Learning AdventuresTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allisons Learning Adventures.app/Allisons Learning Adventures";
+			};
+			name = Debug;
+		};
+		A9058DEE1AE495A900B5D03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Allisons Learning AdventuresTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allisons Learning Adventures.app/Allisons Learning Adventures";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9058DC31AE495A800B5D03D /* Build configuration list for PBXProject "Allisons Learning Adventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9058DE71AE495A900B5D03D /* Debug */,
+				A9058DE81AE495A900B5D03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9058DE91AE495A900B5D03D /* Build configuration list for PBXNativeTarget "Allisons Learning Adventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9058DEA1AE495A900B5D03D /* Debug */,
+				A9058DEB1AE495A900B5D03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9058DEC1AE495A900B5D03D /* Build configuration list for PBXNativeTarget "Allisons Learning AdventuresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9058DED1AE495A900B5D03D /* Debug */,
+				A9058DEE1AE495A900B5D03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9058DC01AE495A800B5D03D /* Project object */;
+}
